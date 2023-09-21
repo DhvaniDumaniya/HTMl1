@@ -1,0 +1,47 @@
+
+
+<title>"form"</title>
+</head>
+<body style="background-color:lightblue;">
+<pre>
+<h1><center><u>Student Registration Form</u></center></h1><br><br><br>
+<form action="action.html" target="_blank">
+<fieldset>
+<legend><b>Personal Details:</b><br>
+<label for="fname"><b>First name:</b></label><br>
+<input type="text" id="fname" placeholder="Enter your first name" required><br>
+<label for="lname"><b>Last name:</b></label><br>
+<input type="text" id="lname" placeholder="Enter your last name" required><br>
+<labe for="country"><b>Select your country:</b></label>
+<input list="Country" name="Country" required>
+<datalist id="Country">
+<option value="India">
+<option value="Japan">
+<option value="America">
+<option value="China">
+</datalist>
+<label for="state"><b>state:</b></label><br>
+<input type="text" id="state" name="state" placeholder="Your state" required><br>
+<label for="city"><b>City:</b></label><br>
+<input type="text" id="city" name="city" placeholder="Your city" required><br>
+<label for="pin"><b>pin code:</b></label><br>
+<input type="text" id="pin" name="pin" placeholder="Your Pin code" maxlength="6" required><br>
+<label for="edu"><b>Qualification:</b></label><br>
+input type="text" id="edu" name="edu" placeholder="Your Highest Qualification" required><br>
+</fieldset>
+
+
+<fieldset>
+<legend><b>Contact details:</b></legend>
+<label for="email"><b>E-mail:</b></label><br>
+<input type="text" id="email" name="email" placeholder="Enter your mail address" required><br>
+<label for="num"><b>Phone Number:</b></label><br>
+<input type="text" id="num" name="num" placeholder="0123456789" maxlength="10" required><br>
+<label for="add"><b>Address:</b></label><br>
+<input type="text" id="add" name="add" required><br>
+</fieldset>
+<input type="submit" value="Submit">
+<form>
+</pre>
+</body>
+</html>
